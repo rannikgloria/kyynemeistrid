@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kairiinails</title>
+    <title>Tagasiside</title>
     <link rel="stylesheet" type="text/css" href="../css_files/">
 </head>
 <body>
@@ -42,16 +42,34 @@
             </div>
         </div>
     </header>
-    <div id="summary">
-        <p>
-            Olen küünetööga varsti juba aasta otsa tegelenud, kuid küünetehnikutehniku baaskoolituse läbisin alles 2023. aasta septembri alguses. Kümnepäevaselt põhjalikult koolituselt sain korraliku baasteadmiste pagasi ning vajalikud oskused, et teha oma tööd asjatundlikult ja ohutult.
-        </p>
+
+    <h1>Tagasiside</h1>
+    <p id="feedback-describe-text">Hea klient! Selleks, et saaksin oma töös veelgi professionaalsem ja kliendile orienteeritum olla, palun anna mulle tagasisidet! Mida põhjalikum ja ausam vastus, seda paremaks saan kujundada oma teenuse!</p>
+    <div id="feedback-form-container"> 
+        <!-- See tagasiside saamise viis, mida tehnik kirjeldas, vajab PHP koodi, seega ma ei tea, kuidas me seda realiseerime. 
+            Praeguseks panin mailto, mis pakub kasutajal saata talle meil, kuigi veidral kujul, võite testida -->
+        
+        <!--<form action="mailto:kairiinails@gmail.com?subject=Tagasiside" method="post" enctype="text/plain">
+            Eesnimi: <input type="text" name="firstname" placeholder="Sisestage eesnimi" id="firstname"><br>
+            Perenimi: <input type="text" name="lastname" placeholder="Sisestage perenimi" id="lastname"><br>
+            E-post: <input type="email" name="mail" placeholder="Teie e-posti aadress" id="mail"><br><br>
+
+            Tagasiside:<br>
+            <textarea name="commentfield" id="commentfield" cols="30" rows="10" placeholder="Mis meeldis? Miks otsustasid just minu teenuse kasuks? Kas miski häiris või ei meeldinud? Jaga mõnda soovitust/ideed!"></textarea>
+            <br>
+            <input type="submit" value="Saada">
+        </form>-->
     </div>
-    <div>
-        <a href="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5vejB3MnY1c2tjaXQycXV4bHByMXNnajZobGR4MDMzdzl2cjMwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oriO0OEd9QIDdllqo/giphy.gif">
-            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5vejB3MnY1c2tjaXQycXV4bHByMXNnajZobGR4MDMzdzl2cjMwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oriO0OEd9QIDdllqo/giphy.gif" alt="Cute cat">
-        </a>
+
+    <div class="feedback-carousel-container"> <!-- Seda peaks n-ö karusselliks tegema, aga selleks on vaja JavaScripti -->
+        <h2 id="feedback-carousel-title">Klientide tagasiside</h2>
+        <h3 id="feedback-question">Mis meeldis Sulle minu teenuse osutamise juures kõige enam?</h3><br>
+        <p class="feedback-response">Pühendumus</p>
+        <p class="feedback-response">Tehnik on hoolikas, enda töö suhtes nõudlik, mistõttu töö tulemus ka kvaliteetne.</p>
+        <p class="feedback-response">Viisakus ja keskkonna hubasus. Erinevate toimingute kohta täpsustamine ja miks need vajalikud.</p>
+        <p class="feedback-response">Võibolla see, et oskasid aidata/ soovitada küünenahkade hoolitsemise kohta, varem pole ükski küünetehnik selle kohta rääkinud. Samuti ka ilus tulemus.</p><br>
     </div>
+
     <footer>
         <div id="footer-navbar">
             <p>Kirjuta mulle!</p>
