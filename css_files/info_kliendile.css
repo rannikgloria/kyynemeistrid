@@ -76,6 +76,18 @@ p{
 .button a:hover {
     background-color: white;
 }
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+#main-info-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
 .button-text {
     color: black;
 }
