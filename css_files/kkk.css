@@ -3,13 +3,14 @@
     src: url('/fonts/DancingScript-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-family: 'Spectral';
+    src: url('/fonts/Spectral-Regular.ttf') format('truetype');
 }
 h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: medium;
-    color: rgb(12, 12, 12)
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
 
 }
 body {
@@ -65,7 +66,7 @@ footer{
     display: block;
 }
 p{
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Spectral', sans-serif;
     font-size: 20px;
 }
 #navbar {
@@ -82,4 +83,10 @@ p{
 
 .button a {
     color: black; 
+}
+.question-answer {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10;
+    margin-bottom: 20px;
 }

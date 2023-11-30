@@ -6,6 +6,10 @@
     font-family: 'Playfair Display';
     src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Spectral';
+    src: url('/fonts/Spectral-Regular.ttf') format('truetype');
+}
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: medium;
@@ -65,7 +69,7 @@ footer{
     display: block;
 }
 p{
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Spectral', sans-serif;
     font-size: 20px;
 }
 #navbar {

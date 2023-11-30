@@ -3,8 +3,8 @@
     src: url('/fonts/DancingScript-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-family: 'Spectral';
+    src: url('/fonts/Spectral-Regular.ttf') format('truetype');
 }
 h1 {
     font-family: 'Dancing Script', cursive;
@@ -55,6 +55,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 .footerbutton{
     margin-right: 20px;
@@ -65,8 +66,9 @@ footer{
     display: block;
 }
 p{
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Spectral', sans-serif;
     font-size: 20px;
+    color: black;
 }
 #navbar {
     display: flex;
