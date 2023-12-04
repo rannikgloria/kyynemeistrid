@@ -37,6 +37,17 @@ body {
     font-size: 16px;
 }
 
+.timebutton {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Dancing Script';
+    font-size: 16px;
+}
+
 a:link{
     color: white;
     padding: 15px 32px;
@@ -140,4 +151,8 @@ p{
 .contact-button {
     display: flex;
     align-items: center;
+}
+
+#feedback-question {
+    text-align: center;
 }
