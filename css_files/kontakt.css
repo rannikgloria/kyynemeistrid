@@ -20,6 +20,10 @@ body {
 .logo{
     text-align:center;
 }
+.logo img {
+    width: 250px;
+    max-width: 100%;
+  }
 .headerbutton {
     background-color: white;
     border: none;
@@ -74,7 +78,7 @@ p{
     align-items: center;
 }
 h1 {
-    margin: 60px 0;
+    margin: 60px;
     text-align: center;
     font-size: 35px;
 }
@@ -98,10 +102,6 @@ h1 {
 .button-text {
     color: black;
 }
-.button-text {
-    color: black;
-}
-
 .button a {
     color: black; 
 }

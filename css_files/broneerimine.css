@@ -77,3 +77,7 @@ p{
 .button a {
     color: black; 
 }
+.logo img {
+    width: 250px;
+    max-width: 100%;
+  }
