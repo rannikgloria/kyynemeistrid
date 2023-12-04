@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Dancing Script';
-    src: url(/fonts/DancingScript-Regular.ttf);
+    src: url('../fonts/DancingScript-Regular.ttf');
 }
 @font-face {
     font-family: 'Spectral';
