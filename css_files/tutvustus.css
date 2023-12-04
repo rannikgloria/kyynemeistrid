@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Dancing Script';
-    src: url('/fonts/DancingScript-Regular.ttf') format('truetype');
+    src: url(/fonts/DancingScript-Regular.ttf);
 }
 @font-face {
     font-family: 'Spectral';
@@ -9,7 +9,7 @@
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: medium;
-    color: rgb(12, 12, 12);
+    color: rgb(99, 27, 27)
 
 }
 body {
@@ -31,7 +31,6 @@ body {
     cursor: pointer;
     font-family: 'Dancing Script';
     font-size: 16px;
-    font-weight: bold;
 }
 
 a:link{
@@ -44,12 +43,8 @@ a:link{
     cursor: pointer;
     font-family: 'Dancing Script';
     font-size: x-large;
+    font-weight: bold;
 }
-
-.button a:hover {
-    background-color: white;
-}
-
 footer{
     background-color: rgba(129, 122, 122, 0.466);
 }
@@ -70,6 +65,24 @@ footer{
 p{
     font-family: 'Spectral', sans-serif;
     font-size: 20px;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button a:hover {
+    background-color: rgb(255, 255, 255);
+}
+.button-text {
+    color: black;
+}
+
+.button a {
+    color: rgb(0, 0, 0); 
+}p{
+    font-family: 'Spectral', sans-serif;
+    font-size: 20px;
     font-weight: 200;
 }
 #main-text {
@@ -85,12 +98,4 @@ h2 {
     font-family: 'Dancing Script';
     text-align: center;
     font-size: xx-large;
-
-}
-.button-text {
-    color: black;
-}
-
-.button a {
-    color: black; 
 }

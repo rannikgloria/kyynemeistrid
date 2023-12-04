@@ -6,12 +6,6 @@
     font-family: 'Spectral';
     src: url('/fonts/Spectral-Regular.ttf') format('truetype');
 }
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: medium;
-    color: rgb(12, 12, 12)
-
-}
 body {
     background-color: rgb(176, 208, 245);
     padding: 20px;

@@ -3,10 +3,6 @@
     src: url('/fonts/DancingScript-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
-}
-@font-face {
     font-family: 'Spectral';
     src: url('/fonts/Spectral-Regular.ttf') format('truetype');
 }
@@ -69,7 +65,7 @@ footer{
     display: block;
 }
 p{
-    font-family: 'Spectral', sans-serif;
+    font-family: 'Spectral';
     font-size: 20px;
 }
 #navbar {
@@ -108,5 +104,8 @@ h1 {
 
 .button a {
     color: black; 
+}
+.button a:hover {
+    background-color: white;
 }
 
