@@ -102,3 +102,7 @@ p{
 .contact-button img {
     margin-right: 10px;  
 }
+.logo img {
+    width: 250px;
+    max-width: 100%;
+  }

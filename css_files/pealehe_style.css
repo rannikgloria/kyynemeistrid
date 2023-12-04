@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Spectral';
-    src: url('/fonts/Spectral-Regular.ttf') format('truetype');
+    src: url('../fonts/Spectral-Regular.ttf') format('truetype');
 }
 body {
     background-color: rgb(176, 208, 245);
@@ -101,4 +101,8 @@ p{
     .gallery img {
       width: calc(100% - 20px);
     }
+  }
+  .logo img {
+    width: 250px;
+    max-width: 100%;
   }
