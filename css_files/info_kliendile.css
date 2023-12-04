@@ -8,10 +8,10 @@
 }
 h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: medium;
+    font-size: xx-large;
     color: rgb(12, 12, 12)
-
 }
+
 body {
     background-color: rgb(176, 208, 245);
     padding: 20px;
@@ -79,6 +79,7 @@ p{
 ul {
     font-family: 'Spectral', sans-serif;
     font-size: 20px;
+    list-style-position: inside;
 }
 h1 {
     font-size: xx-large;

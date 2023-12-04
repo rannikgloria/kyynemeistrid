@@ -6,6 +6,13 @@
     font-family: 'Spectral';
     src: url('../fonts/Spectral-Regular.ttf') format('truetype');
 }
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
 body {
     background-color: rgb(176, 208, 245);
     padding: 20px;
@@ -76,4 +83,22 @@ p{
 
 .button a {
     color: black; 
+}
+
+#contact-container {
+    display: flex;
+    grid-template-columns: repeat(2, auto); 
+    column-gap: 20px; 
+    align-items: center;
+    text-align: left;  
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+}
+
+.contact-button img {
+    margin-right: 10px;  
 }

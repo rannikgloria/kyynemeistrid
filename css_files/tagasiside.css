@@ -9,9 +9,9 @@
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
-    color: rgb(12, 12, 12)
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
-
 body {
     background-color: rgb(176, 208, 245);
     padding: 20px;
