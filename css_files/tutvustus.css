@@ -99,3 +99,16 @@ h2 {
     text-align: center;
     font-size: xx-large;
 }
+#round-img {
+    float: left;
+}
+#round-img img {
+    border-radius: 50%;
+}
+#text-border {
+    overflow: hidden;
+    margin-left: 10px;
+}
+#text {
+    margin-left: 20px;
+}
