@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,14 +58,30 @@
         </form>-->
     </div>
 
-    <div class="feedback-carousel-container"> <!-- Seda peaks n-ö karusselliks tegema, aga selleks on vaja JavaScripti -->
-        <h2 id="feedback-carousel-title">Klientide tagasiside</h2>
-        <h3 id="feedback-question">Mis meeldis Sulle minu teenuse osutamise juures kõige enam?</h3><br>
-        <p class="feedback-response">Pühendumus</p>
-        <p class="feedback-response">Tehnik on hoolikas, enda töö suhtes nõudlik, mistõttu töö tulemus ka kvaliteetne.</p>
-        <p class="feedback-response">Viisakus ja keskkonna hubasus. Erinevate toimingute kohta täpsustamine ja miks need vajalikud.</p>
-        <p class="feedback-response">Võibolla see, et oskasid aidata/ soovitada küünenahkade hoolitsemise kohta, varem pole ükski küünetehnik selle kohta rääkinud. Samuti ka ilus tulemus.</p><br>
+    <div class="container">
+        <h1>Klientide tagasiside</h1>
+        <p id="feedback-describe-text">Mis meeldis Sulle minu teenuse osutamise juures kõige enam?</p>
+        <div class="carouselContainer">
+          <div class="carouselImgs slide1">
+            <h1>Pühendumus</h1>
+          </div>
+          <div class="carouselImgs slide2">
+            <h1>Tehnik on hoolikas, enda töö suhtes nõudlik, mistõttu töö tulemus ka kvaliteetne.</h1>
+          </div>
+          <div class="carouselImgs slide3">
+            <h1>Viisakus ja keskkonna hubasus. Erinevate toimingute kohta täpsustamine ja miks need vajalikud.</h1>
+          </div>
+          <div class="carouselImgs slide4">
+            <h1>Võibolla see, et oskasid aidata/ soovitada küünenahkade hoolitsemise kohta, varem pole ükski küünetehnik selle kohta rääkinud. Samuti ka ilus tulemus.</h1>
+          </div>
+          <span class="prev" id="prev">
+            < </span>
+              <span class="next" id="next">
+                > </span>
+        </div>
     </div>
+    
+    <script src=tagasiside.js></script>
 
     <footer>
         <div id="footer-navbar">
