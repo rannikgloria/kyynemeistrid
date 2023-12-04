@@ -77,3 +77,28 @@ p{
 .button a {
     color: rgb(0, 0, 0); 
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: calc(25% - 20px);
+    height: 280px;
+    margin: 10px;
+    box-sizing: border-box;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery img {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery img {
+      width: calc(100% - 20px);
+    }
+  }
